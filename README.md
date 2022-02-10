@@ -17,3 +17,5 @@ A CIDR block (Classless Inter-Domain Routing) is an internet protocol address al
 
 ## What is NACL?
 Network ACLs: An optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of your subnets.
+
+![VPC](VPC.png)
