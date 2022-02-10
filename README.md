@@ -41,3 +41,5 @@ Network ACLs: An optional layer of security for your VPC that acts as a firewall
 
 SSH into the app instance, and attach the DB using it's private IP.
 Now your if you go to your App IP, you should see the app, and if you go to /posts, you should be able to see the Recent posts, meaning that the DB is connected properly.
+
+![VPC](GIF/../GIFs/Result.gif)
