@@ -31,6 +31,7 @@ route table are a set of rules called route to determine where the traffic for t
 
 ![Route_Tables](GIF/../GIFs/Route_Tables.gif)
 
+
 ## What is a CIDR block?
 A CIDR block (Classless Inter-Domain Routing) is an internet protocol address allocation and route aggregation methodology.
 
@@ -49,6 +50,7 @@ Network ACLs: An optional layer of security for your VPC that acts as a firewall
 
 ![App](GIF/../GIFs/Create_App_instance.gif)
 
+
 ### For DB instance:
 - Create The DB VM using the Our DB AMI.
 - Select our Created VPC and the private subnet, also disable assignment of a Public IP.
@@ -56,11 +58,13 @@ Network ACLs: An optional layer of security for your VPC that acts as a firewall
 
 ![DB](GIF/../GIFs/Create_DB_instance.gif)
 
-SSH into the app instance, and attach the DB using it's private IP.
+
+### SSH into the app instance, and attach the DB using it's private IP.
 
 ![SSH](GIF/../GIFs/Connecting_App_to_DB.gif)
 
-Now your if you go to your App IP, you should see the app, and if you go to /posts, you should be able to see the Recent posts, meaning that the DB is connected properly.
+
+### Now your if you go to your App IP, you should see the app, and if you go to /posts, you should be able to see the Recent posts, meaning that the DB is connected properly.
 
 ![Result](GIF/../GIFs/Result.gif)
 
