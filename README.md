@@ -12,7 +12,7 @@ It is a amazon's service that lets you create a logically Isolated network in a 
 ## What is an internet gateway?
 a CIDR block is an gateway that you attach to your VPC to enable communication between resources in your VPC and the internet.
 
-## How to create an Internet Gateway, and attach it to our VPC.
+### How to create an Internet Gateway, and attach it to our VPC.
 
 ![IG](GIF/../GIFs/IG.gif)
 
@@ -21,7 +21,7 @@ a CIDR block is an gateway that you attach to your VPC to enable communication b
 ## What are Subnets?
 They are logical subdivision by availability zone of a larger VPC network, in here you can launch your instances, a use case scenario would be to have a public subnet for resources that would be connected to the internet, and having a private subnet for resources that wouldn't be connected to the internet. in each subnet the IP addresses would start with the same prefix.
 
-## How to create a Public and Private subnets. (example 10.0.1.0/24, 10.0.2.0/24)
+### How to create a Public and Private subnets. (example 10.0.1.0/24, 10.0.2.0/24)
 
 ![subnets](GIF/../GIFs/subnets.gif)
 
@@ -30,7 +30,7 @@ They are logical subdivision by availability zone of a larger VPC network, in he
 ## What is a route table? 
 route table are a set of rules called route to determine where the traffic for the VPC is directed. It is possible to associate a subnet with particular route tables depending of the user's use case scenario.
 
-## how to create a route tables for each subnets, associate them to their respective subnets.
+### how to create a route tables for each subnets, associate them to their respective subnets.
 
 ![Route_Tables](GIF/../GIFs/Route_Tables.gif)
 
