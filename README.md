@@ -8,12 +8,14 @@ It is a amazon's service that lets you create a logically Isolated network in a 
 ![VPC](GIF/../GIFs/VPC.gif)
 
 
+
 ## What is an internet gateway?
 a CIDR block is an gateway that you attach to your VPC to enable communication between resources in your VPC and the internet.
 
 ## How to create an Internet Gateway, and attach it to our VPC.
 
 ![IG](GIF/../GIFs/IG.gif)
+
 
 
 ## What are Subnets?
@@ -24,12 +26,14 @@ They are logical subdivision by availability zone of a larger VPC network, in he
 ![subnets](GIF/../GIFs/subnets.gif)
 
 
+
 ## What is a route table? 
 route table are a set of rules called route to determine where the traffic for the VPC is directed. It is possible to associate a subnet with particular route tables depending of the user's use case scenario.
 
 ## how to create a route tables for each subnets, associate them to their respective subnets.
 
 ![Route_Tables](GIF/../GIFs/Route_Tables.gif)
+
 
 
 ## What is a CIDR block?
@@ -51,6 +55,7 @@ Network ACLs: An optional layer of security for your VPC that acts as a firewall
 ![App](GIF/../GIFs/Create_App_instance.gif)
 
 
+
 ### For DB instance:
 - Create The DB VM using the Our DB AMI.
 - Select our Created VPC and the private subnet, also disable assignment of a Public IP.
@@ -59,9 +64,11 @@ Network ACLs: An optional layer of security for your VPC that acts as a firewall
 ![DB](GIF/../GIFs/Create_DB_instance.gif)
 
 
+
 ### SSH into the app instance, and attach the DB using it's private IP.
 
 ![SSH](GIF/../GIFs/Connecting_App_to_DB.gif)
+
 
 
 ### Now your if you go to your App IP, you should see the app, and if you go to /posts, you should be able to see the Recent posts, meaning that the DB is connected properly.
